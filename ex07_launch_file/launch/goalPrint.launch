@@ -1,7 +1,6 @@
 <launch>
   <!-- My Package launch file -->
+  <include file="/home/prajakta/catkin_ws/src/goal_publisher/launch/goal_publisher.launch" />
   <remap from="/points" to="goals"/>
   <node pkg="ex07_launch_file" type="ex07.py" name="goal_launch" output="screen">
-  </node>
-  <include file="/home/prajakta/catkin_ws/src/goal_publisher/launch/goal_publisher.launch" />
 </launch>
