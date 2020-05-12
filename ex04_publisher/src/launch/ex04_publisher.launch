@@ -1,6 +1,0 @@
-<launch>
-  <!-- My Package launch file -->
-  <node pkg="ex04_publisher" type="my_publisher.py" name="vel_publisher" output="screen">
-  </node>
-</launch>
-
